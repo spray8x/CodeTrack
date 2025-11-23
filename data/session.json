@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "problem_id": 1,
+    "start_time": "2024-11-20T14:00:00",
+    "end_time": "2024-11-20T14:22:00",
+    "duration_seconds": 1320,
+    "pauses": [],
+    "solved": true,
+    "hints_used": 0,
+    "notes": [
+      {
+        "timestamp": "2024-11-20T14:05:00",
+        "text": "Using hash map approach for O(n) solution"
+      },
+      {
+        "timestamp": "2024-11-20T14:18:00",
+        "text": "Watch out for same element used twice edge case"
+      }
+    ],
+    "solution_code": "def twoSum(nums, target):\n    seen = {}\n    for i, num in enumerate(nums):\n        diff = target - num\n        if diff in seen:\n            return [seen[diff], i]\n        seen[num] = i\n    return []"
+  },
+  {
+    "id": 2,
+    "problem_id": 2,
+    "start_time": "2024-11-21T09:00:00",
+    "end_time": "2024-11-21T10:15:00",
+    "duration_seconds": 4500,
+    "pauses": [
+      {
+        "pause_time": "2024-11-21T09:30:00",
+        "resume_time": "2024-11-21T09:45:00"
+      }
+    ],
+    "solved": true,
+    "hints_used": 1,
+    "notes": [
+      {
+        "timestamp": "2024-11-21T09:20:00",
+        "text": "Stack-based solution - push opening, pop on closing"
+      }
+    ],
+    "solution_code": "def isValid(s):\n    stack = []\n    mapping = {')': '(', '}': '{', ']': '['}\n    for char in s:\n        if char in mapping:\n            if not stack or stack.pop() != mapping[char]:\n                return False\n        else:\n            stack.append(char)\n    return len(stack) == 0"
+  }
+]

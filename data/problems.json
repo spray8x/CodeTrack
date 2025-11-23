@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "topics": ["Arrays", "Hash Table"],
+    "platform": "LeetCode",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "status": "Solved",
+    "date_added": "2024-11-20T10:30:00",
+    "date_modified": "2024-11-20T14:22:00"
+  },
+  {
+    "id": 2,
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "topics": ["Stack", "Strings"],
+    "platform": "LeetCode",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "status": "Solved",
+    "date_added": "2024-11-21T09:00:00",
+    "date_modified": "2024-11-21T10:15:00"
+  },
+  {
+    "id": 3,
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "topics": ["Strings", "Sliding Window", "Hash Table"],
+    "platform": "LeetCode",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "status": "In Progress",
+    "date_added": "2024-11-22T11:00:00",
+    "date_modified": "2024-11-23T09:30:00"
+  },
+  {
+    "id": 4,
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "topics": ["Arrays", "Binary Search", "Divide and Conquer"],
+    "platform": "LeetCode",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "status": "Not Started",
+    "date_added": "2024-11-22T14:00:00",
+    "date_modified": "2024-11-22T14:00:00"
+  },
+  {
+    "id": 5,
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "topics": ["Arrays", "Dynamic Programming"],
+    "platform": "LeetCode",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "status": "Solved",
+    "date_added": "2024-11-23T08:00:00",
+    "date_modified": "2024-11-23T10:30:00"
+  }
+]

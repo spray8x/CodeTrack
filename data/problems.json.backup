@@ -3,10 +3,7 @@
     "id": 1,
     "title": "Two Sum",
     "difficulty": "Easy",
-    "topics": [
-      "Arrays",
-      "Hash Table"
-    ],
+    "topics": ["Arrays", "Hash Table"],
     "platform": "LeetCode",
     "url": "https://leetcode.com/problems/two-sum/",
     "status": "Solved",
@@ -17,10 +14,7 @@
     "id": 2,
     "title": "Valid Parentheses",
     "difficulty": "Easy",
-    "topics": [
-      "Stack",
-      "Strings"
-    ],
+    "topics": ["Stack", "Strings"],
     "platform": "LeetCode",
     "url": "https://leetcode.com/problems/valid-parentheses/",
     "status": "Solved",
@@ -31,11 +25,7 @@
     "id": 3,
     "title": "Longest Substring Without Repeating Characters",
     "difficulty": "Medium",
-    "topics": [
-      "Strings",
-      "Sliding Window",
-      "Hash Table"
-    ],
+    "topics": ["Strings", "Sliding Window", "Hash Table"],
     "platform": "LeetCode",
     "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
     "status": "In Progress",
@@ -46,11 +36,7 @@
     "id": 4,
     "title": "Median of Two Sorted Arrays",
     "difficulty": "Hard",
-    "topics": [
-      "Arrays",
-      "Binary Search",
-      "Divide and Conquer"
-    ],
+    "topics": ["Arrays", "Binary Search", "Divide and Conquer"],
     "platform": "LeetCode",
     "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
     "status": "Not Started",
@@ -61,27 +47,11 @@
     "id": 5,
     "title": "Maximum Subarray",
     "difficulty": "Medium",
-    "topics": [
-      "Arrays",
-      "Dynamic Programming"
-    ],
+    "topics": ["Arrays", "Dynamic Programming"],
     "platform": "LeetCode",
     "url": "https://leetcode.com/problems/maximum-subarray/",
     "status": "Solved",
     "date_added": "2024-11-23T08:00:00",
     "date_modified": "2024-11-23T10:30:00"
-  },
-  {
-    "id": 6,
-    "title": "Palindrome Number",
-    "difficulty": "Easy",
-    "topics": [
-      "Math"
-    ],
-    "platform": "LeetCode",
-    "url": "https://leetcode.com/problems/palindrome-number/",
-    "status": "Not Started",
-    "date_added": "2025-11-23T23:36:05.327143",
-    "date_modified": "2025-11-23T23:36:05.327189"
   }
 ]
